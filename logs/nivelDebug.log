@@ -1,0 +1,1268 @@
+2021-11-24 14:03:26,605 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on EM2021002988 with PID 12784 (C:\Users\antonio.dols\IdeaProjects\loggingSpring\target\classes started by antonio.dols in C:\Users\antonio.dols\IdeaProjects\loggingSpring)
+2021-11-24 14:03:26,610 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-24 14:03:26,610 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: perfil1
+2021-11-24 14:03:26,611 DEBUG org.springframework.boot.SpringApplication [main] Loading source class com.example.loggingSpring.LoggingSpringApplication
+2021-11-24 14:03:26,708 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ae8bcbc
+2021-11-24 14:03:26,740 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-11-24 14:03:26,762 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2021-11-24 14:03:26,861 DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider [main] Identified candidate component class: file [C:\Users\antonio.dols\IdeaProjects\loggingSpring\target\classes\com\example\loggingSpring\Controller1.class]
+2021-11-24 14:03:27,427 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2021-11-24 14:03:27,434 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+2021-11-24 14:03:27,443 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-11-24 14:03:27,445 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2021-11-24 14:03:27,446 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'forceAutoProxyCreatorToUseClassProxying'
+2021-11-24 14:03:27,448 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-11-24 14:03:27,456 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-11-24 14:03:27,458 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-11-24 14:03:27,464 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2021-11-24 14:03:27,465 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2021-11-24 14:03:27,465 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+2021-11-24 14:03:27,469 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-11-24 14:03:27,507 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+2021-11-24 14:03:27,508 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2021-11-24 14:03:27,517 DEBUG org.springframework.ui.context.support.UiApplicationContextUtils [main] Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@127d7908]
+2021-11-24 14:03:27,518 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+2021-11-24 14:03:27,519 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+2021-11-24 14:03:27,574 DEBUG org.apache.juli.logging.DirectJDKLog [main] The Apache Tomcat Native library could not be found using names [tcnative-1, libtcnative-1] on the java.library.path [C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\antonio.dols\Downloads\apache-maven-3.8.3-bin\apache-maven-3.8.3\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\antonio.dols\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\Users\antonio.dols\AppData\Local\GitHubDesktop\bin;.]. The errors reported were [Can't load library: C:\Users\antonio.dols\IdeaProjects\loggingSpring\bin\tcnative-1.dll, Can't load library: C:\Users\antonio.dols\IdeaProjects\loggingSpring\bin\libtcnative-1.dll, no tcnative-1 in java.library.path: C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\antonio.dols\Downloads\apache-maven-3.8.3-bin\apache-maven-3.8.3\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\antonio.dols\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\Users\antonio.dols\AppData\Local\GitHubDesktop\bin;., no libtcnative-1 in java.library.path: C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\antonio.dols\Downloads\apache-maven-3.8.3-bin\apache-maven-3.8.3\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\antonio.dols\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\Users\antonio.dols\AppData\Local\GitHubDesktop\bin;.]
+org.apache.tomcat.jni.LibraryNotFoundError: Can't load library: C:\Users\antonio.dols\IdeaProjects\loggingSpring\bin\tcnative-1.dll, Can't load library: C:\Users\antonio.dols\IdeaProjects\loggingSpring\bin\libtcnative-1.dll, no tcnative-1 in java.library.path: C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\antonio.dols\Downloads\apache-maven-3.8.3-bin\apache-maven-3.8.3\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\antonio.dols\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\Users\antonio.dols\AppData\Local\GitHubDesktop\bin;., no libtcnative-1 in java.library.path: C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\antonio.dols\Downloads\apache-maven-3.8.3-bin\apache-maven-3.8.3\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\antonio.dols\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\Users\antonio.dols\AppData\Local\GitHubDesktop\bin;.
+	at org.apache.tomcat.jni.Library.<init>(Library.java:93)
+	at org.apache.tomcat.jni.Library.initialize(Library.java:203)
+	at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:197)
+	at org.apache.catalina.core.AprLifecycleListener.isAprAvailable(AprLifecycleListener.java:102)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getDefaultLifecycleListeners(TomcatServletWebServerFactory.java:180)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.<init>(TomcatServletWebServerFactory.java:127)
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat.tomcatServletWebServerFactory(ServletWebServerFactoryConfiguration.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:217)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.example.loggingSpring.LoggingSpringApplication.main(LoggingSpringApplication.java:17)
+2021-11-24 14:03:27,599 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+2021-11-24 14:03:27,600 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+2021-11-24 14:03:27,603 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+2021-11-24 14:03:27,604 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+2021-11-24 14:03:27,611 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-11-24 14:03:27,624 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+2021-11-24 14:03:27,660 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-11-24 14:03:27,664 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+2021-11-24 14:03:27,666 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-11-24 14:03:27,667 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+2021-11-24 14:03:27,668 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+2021-11-24 14:03:27,669 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+2021-11-24 14:03:27,670 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-11-24 14:03:27,672 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+2021-11-24 14:03:27,673 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+2021-11-24 14:03:27,677 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-11-24 14:03:27,732 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'errorPageCustomizer'
+2021-11-24 14:03:27,734 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+2021-11-24 14:03:27,735 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-11-24 14:03:27,738 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'dispatcherServletRegistration'
+2021-11-24 14:03:27,738 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2021-11-24 14:03:27,740 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'dispatcherServlet'
+2021-11-24 14:03:27,741 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2021-11-24 14:03:27,743 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2021-11-24 14:03:27,748 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2021-11-24 14:03:27,766 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+2021-11-24 14:03:27,766 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2021-11-24 14:03:27,769 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'multipartConfigElement'
+2021-11-24 14:03:27,770 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+2021-11-24 14:03:27,771 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2021-11-24 14:03:27,778 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2021-11-24 14:03:27,785 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+2021-11-24 14:03:27,925 DEBUG org.apache.juli.logging.DirectJDKLog [main] IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol port=8081)
+2021-11-24 14:03:27,935 DEBUG org.apache.juli.logging.DirectJDKLog [main] IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol bindOnInit=false)
+2021-11-24 14:03:27,936 DEBUG org.apache.juli.logging.DirectJDKLog [main] IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint bindOnInit=false)
+2021-11-24 14:03:27,939 DEBUG org.apache.juli.logging.DirectJDKLog [main] IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol maxPostSize=2097152)
+2021-11-24 14:03:27,939 DEBUG org.apache.juli.logging.DirectJDKLog [main] IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint maxPostSize=2097152)
+2021-11-24 14:03:27,955 DEBUG org.apache.juli.logging.DirectJDKLog [main] Add child StandardHost[localhost] StandardEngine[Tomcat]
+2021-11-24 14:03:27,956 DEBUG org.springframework.boot.web.servlet.server.DocumentRoot [main] Code archive: C:\Users\antonio.dols\.m2\repository\org\springframework\boot\spring-boot\2.6.0\spring-boot-2.6.0.jar
+2021-11-24 14:03:27,956 DEBUG org.springframework.boot.web.servlet.server.DocumentRoot [main] Code archive: C:\Users\antonio.dols\.m2\repository\org\springframework\boot\spring-boot\2.6.0\spring-boot-2.6.0.jar
+2021-11-24 14:03:27,957 DEBUG org.springframework.boot.web.servlet.server.DocumentRoot [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-11-24 14:03:27,985 DEBUG org.apache.juli.logging.DirectJDKLog [main] Add child TomcatEmbeddedContext[] StandardEngine[Tomcat].StandardHost[localhost]
+2021-11-24 14:03:27,990 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2021-11-24 14:03:27,991 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardServer[-1]] to [INITIALIZING]
+2021-11-24 14:03:27,999 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@3fd2322d] to [INITIALIZING]
+2021-11-24 14:03:27,999 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@3fd2322d] to [INITIALIZED]
+2021-11-24 14:03:28,000 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardService[Tomcat]] to [INITIALIZING]
+2021-11-24 14:03:28,000 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat]] to [INITIALIZING]
+2021-11-24 14:03:28,001 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat]] to [INITIALIZED]
+2021-11-24 14:03:28,002 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.mapper.MapperListener@474fae39] to [INITIALIZING]
+2021-11-24 14:03:28,002 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.mapper.MapperListener@474fae39] to [INITIALIZED]
+2021-11-24 14:03:28,002 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [Connector[HTTP/1.1-8081]] to [INITIALIZING]
+2021-11-24 14:03:28,007 DEBUG org.apache.juli.logging.DirectJDKLog [main] IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol parseBodyMethods=POST)
+2021-11-24 14:03:28,007 DEBUG org.apache.juli.logging.DirectJDKLog [main] IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint parseBodyMethods=POST)
+2021-11-24 14:03:28,008 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2021-11-24 14:03:28,009 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [Connector[HTTP/1.1-8081]] to [INITIALIZED]
+2021-11-24 14:03:28,009 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardService[Tomcat]] to [INITIALIZED]
+2021-11-24 14:03:28,009 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardServer[-1]] to [INITIALIZED]
+2021-11-24 14:03:28,009 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardServer[-1]] to [STARTING_PREP]
+2021-11-24 14:03:28,010 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardServer[-1]] to [STARTING]
+2021-11-24 14:03:28,010 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@3fd2322d] to [STARTING_PREP]
+2021-11-24 14:03:28,010 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@3fd2322d] to [STARTING]
+2021-11-24 14:03:28,010 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@3fd2322d] to [STARTED]
+2021-11-24 14:03:28,010 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardService[Tomcat]] to [STARTING_PREP]
+2021-11-24 14:03:28,010 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-24 14:03:28,011 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardService[Tomcat]] to [STARTING]
+2021-11-24 14:03:28,011 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat]] to [STARTING_PREP]
+2021-11-24 14:03:28,011 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-24 14:03:28,012 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [INITIALIZING]
+2021-11-24 14:03:28,013 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [INITIALIZED]
+2021-11-24 14:03:28,014 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [STARTING_PREP]
+2021-11-24 14:03:28,015 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [STARTING]
+2021-11-24 14:03:28,015 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [STARTED]
+2021-11-24 14:03:28,016 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [INITIALIZING]
+2021-11-24 14:03:28,017 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [INITIALIZED]
+2021-11-24 14:03:28,017 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STARTING_PREP]
+2021-11-24 14:03:28,017 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [INITIALIZING]
+2021-11-24 14:03:28,017 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [INITIALIZED]
+2021-11-24 14:03:28,018 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [STARTING_PREP]
+2021-11-24 14:03:28,019 DEBUG org.apache.juli.logging.DirectJDKLog [main] Starting ROOT
+2021-11-24 14:03:28,027 DEBUG org.apache.juli.logging.DirectJDKLog [main] Configuring default Resources
+2021-11-24 14:03:28,032 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.webresources.StandardRoot@2264e43c] to [INITIALIZING]
+2021-11-24 14:03:28,034 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.webresources.StandardRoot@2264e43c] to [INITIALIZED]
+2021-11-24 14:03:28,034 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.webresources.StandardRoot@2264e43c] to [STARTING_PREP]
+2021-11-24 14:03:28,037 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.webresources.DirResourceSet@1b15f922] to [INITIALIZING]
+2021-11-24 14:03:28,039 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.webresources.DirResourceSet@1b15f922] to [INITIALIZED]
+2021-11-24 14:03:28,039 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.webresources.DirResourceSet@1b15f922] to [STARTING_PREP]
+2021-11-24 14:03:28,039 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.webresources.DirResourceSet@1b15f922] to [STARTING]
+2021-11-24 14:03:28,039 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.webresources.DirResourceSet@1b15f922] to [STARTED]
+2021-11-24 14:03:28,040 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.webresources.StandardRoot@2264e43c] to [STARTING]
+2021-11-24 14:03:28,040 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.webresources.StandardRoot@2264e43c] to [STARTED]
+2021-11-24 14:03:28,066 DEBUG org.apache.juli.logging.DirectJDKLog [main] Processing standard container startup
+2021-11-24 14:03:28,066 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+2021-11-24 14:03:28,067 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+2021-11-24 14:03:28,067 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+2021-11-24 14:03:28,067 DEBUG org.apache.juli.logging.DirectJDKLog [main] Starting this Loader
+2021-11-24 14:03:28,074 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+2021-11-24 14:03:28,074 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+2021-11-24 14:03:28,104 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+2021-11-24 14:03:28,104 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+2021-11-24 14:03:28,104 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+2021-11-24 14:03:28,105 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+2021-11-24 14:03:28,106 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+2021-11-24 14:03:28,106 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+2021-11-24 14:03:28,108 DEBUG org.apache.juli.logging.DirectJDKLog [main] No SingleSignOn Valve is present
+2021-11-24 14:03:28,108 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+2021-11-24 14:03:28,109 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+2021-11-24 14:03:28,109 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+2021-11-24 14:03:28,109 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+2021-11-24 14:03:28,109 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+2021-11-24 14:03:28,109 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+2021-11-24 14:03:28,110 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+2021-11-24 14:03:28,110 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+2021-11-24 14:03:28,110 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+2021-11-24 14:03:28,110 DEBUG org.apache.juli.logging.DirectJDKLog [main] No manager found. Checking if cluster manager should be used. Cluster configured: [false], Application distributable: [false]
+2021-11-24 14:03:28,116 DEBUG org.apache.juli.logging.DirectJDKLog [main] Configured a manager of class [org.apache.catalina.session.StandardManager]
+2021-11-24 14:03:28,117 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@41fed14f] to [INITIALIZING]
+2021-11-24 14:03:28,118 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@41fed14f] to [INITIALIZED]
+2021-11-24 14:03:28,118 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@41fed14f] to [STARTING_PREP]
+2021-11-24 14:03:28,118 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@41fed14f] to [STARTING]
+2021-11-24 14:03:28,118 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@41fed14f] to [STARTED]
+2021-11-24 14:03:28,127 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-24 14:03:28,127 DEBUG org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2021-11-24 14:03:28,128 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1420 ms
+2021-11-24 14:03:28,134 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'requestContextFilter'
+2021-11-24 14:03:28,136 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'formContentFilter'
+2021-11-24 14:03:28,137 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2021-11-24 14:03:28,143 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'characterEncodingFilter'
+2021-11-24 14:03:28,152 DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-11-24 14:03:28,152 DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Mapping servlets: dispatcherServlet urls=[/]
+2021-11-24 14:03:28,155 DEBUG org.apache.juli.logging.DirectJDKLog [main] Add child StandardWrapper[dispatcherServlet] StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]
+2021-11-24 14:03:28,156 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [INITIALIZING]
+2021-11-24 14:03:28,157 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [INITIALIZED]
+2021-11-24 14:03:28,157 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [STARTING_PREP]
+2021-11-24 14:03:28,158 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [INITIALIZING]
+2021-11-24 14:03:28,158 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [INITIALIZED]
+2021-11-24 14:03:28,158 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTING_PREP]
+2021-11-24 14:03:28,159 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [INITIALIZING]
+2021-11-24 14:03:28,159 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [INITIALIZED]
+2021-11-24 14:03:28,159 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTING_PREP]
+2021-11-24 14:03:28,159 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTING]
+2021-11-24 14:03:28,159 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTED]
+2021-11-24 14:03:28,159 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTING]
+2021-11-24 14:03:28,160 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTED]
+2021-11-24 14:03:28,160 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [STARTING]
+2021-11-24 14:03:28,160 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [STARTED]
+2021-11-24 14:03:28,186 DEBUG org.apache.juli.logging.DirectJDKLog [main] Configuring application event listeners
+2021-11-24 14:03:28,186 DEBUG org.apache.juli.logging.DirectJDKLog [main] Sending application start events
+2021-11-24 14:03:28,189 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+2021-11-24 14:03:28,190 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+2021-11-24 14:03:28,190 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+2021-11-24 14:03:28,191 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@2f651f93] to [INITIALIZING]
+2021-11-24 14:03:28,191 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@2f651f93] to [INITIALIZED]
+2021-11-24 14:03:28,191 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@2f651f93] to [STARTING_PREP]
+2021-11-24 14:03:28,191 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@2f651f93] to [STARTING]
+2021-11-24 14:03:28,191 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@2f651f93] to [STARTED]
+2021-11-24 14:03:28,192 DEBUG org.apache.juli.logging.DirectJDKLog [main] Start: Loading persisted sessions
+2021-11-24 14:03:28,192 DEBUG org.apache.juli.logging.DirectJDKLog [main] Loading persisted sessions from [SESSIONS.ser]
+2021-11-24 14:03:28,192 DEBUG org.apache.juli.logging.DirectJDKLog [main] No persisted data file found
+2021-11-24 14:03:28,193 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+2021-11-24 14:03:28,193 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+2021-11-24 14:03:28,193 DEBUG org.apache.juli.logging.DirectJDKLog [main] Starting filters
+2021-11-24 14:03:28,193 DEBUG org.apache.juli.logging.DirectJDKLog [main]  Starting filter 'requestContextFilter'
+2021-11-24 14:03:28,198 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'requestContextFilter' configured for use
+2021-11-24 14:03:28,198 DEBUG org.apache.juli.logging.DirectJDKLog [main]  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+2021-11-24 14:03:28,199 DEBUG org.apache.juli.logging.DirectJDKLog [main]  Starting filter 'characterEncodingFilter'
+2021-11-24 14:03:28,199 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'characterEncodingFilter' configured for use
+2021-11-24 14:03:28,200 DEBUG org.apache.juli.logging.DirectJDKLog [main]  Starting filter 'formContentFilter'
+2021-11-24 14:03:28,200 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'formContentFilter' configured for use
+2021-11-24 14:03:28,200 DEBUG org.apache.juli.logging.DirectJDKLog [main] Starting completed
+2021-11-24 14:03:28,200 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [STARTING]
+2021-11-24 14:03:28,201 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [STARTED]
+2021-11-24 14:03:28,201 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZING]
+2021-11-24 14:03:28,201 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZED]
+2021-11-24 14:03:28,201 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING_PREP]
+2021-11-24 14:03:28,201 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZING]
+2021-11-24 14:03:28,202 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZED]
+2021-11-24 14:03:28,202 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING_PREP]
+2021-11-24 14:03:28,202 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING]
+2021-11-24 14:03:28,202 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTED]
+2021-11-24 14:03:28,202 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZING]
+2021-11-24 14:03:28,203 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZED]
+2021-11-24 14:03:28,203 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING_PREP]
+2021-11-24 14:03:28,203 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING]
+2021-11-24 14:03:28,203 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTED]
+2021-11-24 14:03:28,203 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING]
+2021-11-24 14:03:28,204 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTED]
+2021-11-24 14:03:28,204 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STARTING]
+2021-11-24 14:03:28,204 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STARTED]
+2021-11-24 14:03:28,205 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [INITIALIZING]
+2021-11-24 14:03:28,205 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [INITIALIZED]
+2021-11-24 14:03:28,205 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [STARTING_PREP]
+2021-11-24 14:03:28,205 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [INITIALIZING]
+2021-11-24 14:03:28,206 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [INITIALIZED]
+2021-11-24 14:03:28,206 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [STARTING_PREP]
+2021-11-24 14:03:28,206 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [STARTING]
+2021-11-24 14:03:28,206 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [STARTED]
+2021-11-24 14:03:28,207 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [STARTING]
+2021-11-24 14:03:28,207 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [STARTED]
+2021-11-24 14:03:28,207 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat]] to [STARTING]
+2021-11-24 14:03:28,210 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardEngine[Tomcat]] to [STARTED]
+2021-11-24 14:03:28,210 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.mapper.MapperListener@474fae39] to [STARTING_PREP]
+2021-11-24 14:03:28,210 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.mapper.MapperListener@474fae39] to [STARTING]
+2021-11-24 14:03:28,213 DEBUG org.apache.juli.logging.DirectJDKLog [main] Registered host [localhost]
+2021-11-24 14:03:28,214 DEBUG org.apache.juli.logging.DirectJDKLog [main] Register Wrapper [dispatcherServlet] in Context [] for service [StandardService[Tomcat]]
+2021-11-24 14:03:28,214 DEBUG org.apache.juli.logging.DirectJDKLog [main] Register Context [] for service [StandardService[Tomcat]]
+2021-11-24 14:03:28,214 DEBUG org.apache.juli.logging.DirectJDKLog [main] Register host [localhost] at domain [null] for service [StandardService[Tomcat]]
+2021-11-24 14:03:28,215 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [org.apache.catalina.mapper.MapperListener@474fae39] to [STARTED]
+2021-11-24 14:03:28,215 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardService[Tomcat]] to [STARTED]
+2021-11-24 14:03:28,216 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [StandardServer[-1]] to [STARTED]
+2021-11-24 14:03:28,222 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'loggingSpringApplication'
+2021-11-24 14:03:28,224 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'controller1'
+2021-11-24 14:03:28,227 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2021-11-24 14:03:28,228 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+2021-11-24 14:03:28,229 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration'
+2021-11-24 14:03:28,231 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+2021-11-24 14:03:28,232 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration'
+2021-11-24 14:03:28,234 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+2021-11-24 14:03:28,235 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'taskExecutorBuilder'
+2021-11-24 14:03:28,237 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+2021-11-24 14:03:28,239 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'taskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+2021-11-24 14:03:28,241 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+2021-11-24 14:03:28,243 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'error'
+2021-11-24 14:03:28,244 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'beanNameViewResolver'
+2021-11-24 14:03:28,246 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+2021-11-24 14:03:28,247 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2021-11-24 14:03:28,251 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ae8bcbc'
+2021-11-24 14:03:28,251 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2021-11-24 14:03:28,252 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'conventionErrorViewResolver'
+2021-11-24 14:03:28,255 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'errorAttributes'
+2021-11-24 14:03:28,258 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'basicErrorController'
+2021-11-24 14:03:28,259 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'basicErrorController' via factory method to bean named 'errorAttributes'
+2021-11-24 14:03:28,265 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2021-11-24 14:03:28,273 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2021-11-24 14:03:28,274 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2021-11-24 14:03:28,274 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6d23017e'
+2021-11-24 14:03:28,289 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+2021-11-24 14:03:28,290 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2021-11-24 14:03:28,290 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2021-11-24 14:03:28,290 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6d23017e'
+2021-11-24 14:03:28,292 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2021-11-24 14:03:28,297 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2021-11-24 14:03:28,307 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'mvcConversionService'
+2021-11-24 14:03:28,313 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'mvcValidator'
+2021-11-24 14:03:28,316 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2021-11-24 14:03:28,316 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2021-11-24 14:03:28,316 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2021-11-24 14:03:28,318 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2021-11-24 14:03:28,318 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2021-11-24 14:03:28,318 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2021-11-24 14:03:28,329 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'messageConverters'
+2021-11-24 14:03:28,329 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+2021-11-24 14:03:28,338 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'stringHttpMessageConverter'
+2021-11-24 14:03:28,338 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+2021-11-24 14:03:28,339 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'stringHttpMessageConverter' via factory method to bean named 'environment'
+2021-11-24 14:03:28,347 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+2021-11-24 14:03:28,347 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+2021-11-24 14:03:28,348 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'jacksonObjectMapper'
+2021-11-24 14:03:28,349 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+2021-11-24 14:03:28,350 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+2021-11-24 14:03:28,351 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+2021-11-24 14:03:28,352 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+2021-11-24 14:03:28,352 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+2021-11-24 14:03:28,356 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ae8bcbc'
+2021-11-24 14:03:28,357 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+2021-11-24 14:03:28,358 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ae8bcbc'
+2021-11-24 14:03:28,358 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+2021-11-24 14:03:28,360 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'parameterNamesModule'
+2021-11-24 14:03:28,360 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+2021-11-24 14:03:28,364 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'jsonComponentModule'
+2021-11-24 14:03:28,364 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+2021-11-24 14:03:28,373 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'jacksonObjectMapper' via factory method to bean named 'jacksonObjectMapperBuilder'
+2021-11-24 14:03:28,388 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'mappingJackson2HttpMessageConverter' via factory method to bean named 'jacksonObjectMapper'
+2021-11-24 14:03:28,397 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'applicationTaskExecutor'
+2021-11-24 14:03:28,398 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'taskExecutorBuilder'
+2021-11-24 14:03:28,404 DEBUG org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-24 14:03:28,416 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-24 14:03:28,453 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2021-11-24 14:03:28,454 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2021-11-24 14:03:28,458 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2021-11-24 14:03:28,458 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2021-11-24 14:03:28,459 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2021-11-24 14:03:28,459 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2021-11-24 14:03:28,460 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2021-11-24 14:03:28,460 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2021-11-24 14:03:28,497 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 
+	c.e.l.Controller1:
+	{GET [/parametros/]}: recogerValoresProperties()
+2021-11-24 14:03:28,501 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2021-11-24 14:03:28,505 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2021-11-24 14:03:28,505 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'welcomePageHandlerMapping'
+2021-11-24 14:03:28,506 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ae8bcbc'
+2021-11-24 14:03:28,506 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcConversionService'
+2021-11-24 14:03:28,506 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2021-11-24 14:03:28,510 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'localeResolver'
+2021-11-24 14:03:28,512 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'themeResolver'
+2021-11-24 14:03:28,514 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'flashMapManager'
+2021-11-24 14:03:28,517 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'mvcPatternParser'
+2021-11-24 14:03:28,518 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2021-11-24 14:03:28,518 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'mvcPathMatcher'
+2021-11-24 14:03:28,519 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2021-11-24 14:03:28,520 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2021-11-24 14:03:28,520 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2021-11-24 14:03:28,520 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2021-11-24 14:03:28,521 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2021-11-24 14:03:28,522 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2021-11-24 14:03:28,523 DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping [main] 'beanNameHandlerMapping' {}
+2021-11-24 14:03:28,523 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'routerFunctionMapping'
+2021-11-24 14:03:28,524 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2021-11-24 14:03:28,524 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2021-11-24 14:03:28,528 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'resourceHandlerMapping'
+2021-11-24 14:03:28,530 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2021-11-24 14:03:28,530 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2021-11-24 14:03:28,530 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2021-11-24 14:03:28,542 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2021-11-24 14:03:28,543 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2021-11-24 14:03:28,543 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2021-11-24 14:03:28,545 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2021-11-24 14:03:28,546 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+2021-11-24 14:03:28,546 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+2021-11-24 14:03:28,548 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2021-11-24 14:03:28,549 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2021-11-24 14:03:28,550 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'handlerExceptionResolver'
+2021-11-24 14:03:28,551 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2021-11-24 14:03:28,554 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-24 14:03:28,556 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'mvcViewResolver'
+2021-11-24 14:03:28,557 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2021-11-24 14:03:28,560 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'viewNameTranslator'
+2021-11-24 14:03:28,562 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'defaultViewResolver'
+2021-11-24 14:03:28,569 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'viewResolver'
+2021-11-24 14:03:28,569 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'viewResolver' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6d23017e'
+2021-11-24 14:03:28,571 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'viewResolver'
+2021-11-24 14:03:28,572 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
+2021-11-24 14:03:28,573 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+2021-11-24 14:03:28,573 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
+2021-11-24 14:03:28,574 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'applicationAvailability'
+2021-11-24 14:03:28,575 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+2021-11-24 14:03:28,576 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
+2021-11-24 14:03:28,576 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'lifecycleProcessor'
+2021-11-24 14:03:28,577 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+2021-11-24 14:03:28,578 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'lifecycleProcessor' via factory method to bean named 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+2021-11-24 14:03:28,580 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+2021-11-24 14:03:28,580 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+2021-11-24 14:03:28,583 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+2021-11-24 14:03:28,585 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' via constructor to bean named 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+2021-11-24 14:03:28,585 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration'
+2021-11-24 14:03:28,586 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+2021-11-24 14:03:28,588 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
+2021-11-24 14:03:28,590 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'scheduledBeanLazyInitializationExcludeFilter'
+2021-11-24 14:03:28,591 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'taskSchedulerBuilder'
+2021-11-24 14:03:28,592 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+2021-11-24 14:03:28,594 DEBUG org.springframework.beans.factory.support.ConstructorResolver [main] Autowiring by type from bean name 'taskSchedulerBuilder' via factory method to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+2021-11-24 14:03:28,595 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration'
+2021-11-24 14:03:28,596 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration'
+2021-11-24 14:03:28,598 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'multipartResolver'
+2021-11-24 14:03:28,614 DEBUG org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup [main] Starting beans in phase 2147483646
+2021-11-24 14:03:28,614 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [Connector[HTTP/1.1-8081]] to [STARTING_PREP]
+2021-11-24 14:03:28,615 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [Connector[HTTP/1.1-8081]] to [STARTING]
+2021-11-24 14:03:28,615 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2021-11-24 14:03:28,665 DEBUG org.apache.juli.logging.DirectJDKLog [main] Setting state for [Connector[HTTP/1.1-8081]] to [STARTED]
+2021-11-24 14:03:28,664 DEBUG org.apache.juli.logging.DirectJDKLog [http-nio-8081-Acceptor] Counting up[http-nio-8081-Acceptor] latch=0
+2021-11-24 14:03:28,667 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2021-11-24 14:03:28,669 DEBUG org.springframework.context.support.DefaultLifecycleProcessor [main] Successfully started bean 'webServerStartStop'
+2021-11-24 14:03:28,669 DEBUG org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup [main] Starting beans in phase 2147483647
+2021-11-24 14:03:28,669 DEBUG org.springframework.context.support.DefaultLifecycleProcessor [main] Successfully started bean 'webServerGracefulShutdown'
+2021-11-24 14:03:28,682 DEBUG org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+
+============================
+CONDITIONS EVALUATION REPORT
+============================
+
+
+Positive matches:
+-----------------
+
+   AopAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.aop.auto=true) matched (OnPropertyCondition)
+
+   AopAutoConfiguration.ClassProxyingConfiguration matched:
+      - @ConditionalOnMissingClass did not find unwanted class 'org.aspectj.weaver.Advice' (OnClassCondition)
+      - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   DispatcherServletAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration matched:
+      - @ConditionalOnClass found required class 'javax.servlet.ServletRegistration' (OnClassCondition)
+      - Default DispatcherServlet did not find dispatcher servlet beans (DispatcherServletAutoConfiguration.DefaultDispatcherServletCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration matched:
+      - @ConditionalOnClass found required class 'javax.servlet.ServletRegistration' (OnClassCondition)
+      - DispatcherServlet Registration did not find servlet registration bean (DispatcherServletAutoConfiguration.DispatcherServletRegistrationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration#dispatcherServletRegistration matched:
+      - @ConditionalOnBean (names: dispatcherServlet types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet' (OnBeanCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.TomcatWebServerFactoryCustomizerConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol' (OnClassCondition)
+
+   ErrorMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ErrorMvcAutoConfiguration#basicErrorController matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorController; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration#errorAttributes matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorAttributes; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration#conventionErrorViewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'; @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.servlet.error.ErrorViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration matched:
+      - @ConditionalOnProperty (server.error.whitelabel.enabled) matched (OnPropertyCondition)
+      - ErrorTemplate Missing did not find error template view (ErrorMvcAutoConfiguration.ErrorTemplateMissingCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#beanNameViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#defaultErrorView matched:
+      - @ConditionalOnMissingBean (names: error; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   GenericCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration automatic cache type (CacheCondition)
+
+   HttpEncodingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.filter.CharacterEncodingFilter' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnProperty (server.servlet.encoding.enabled) matched (OnPropertyCondition)
+
+   HttpEncodingAutoConfiguration#characterEncodingFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.CharacterEncodingFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.HttpMessageConverter' (OnClassCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes (HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition)
+
+   HttpMessageConvertersAutoConfiguration#messageConverters matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.http.HttpMessageConverters; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.StringHttpMessageConverter' (OnClassCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration#stringHttpMessageConverter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.StringHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration#jacksonObjectMapperBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.Jackson2ObjectMapperBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration#jacksonObjectMapper matched:
+      - @ConditionalOnMissingBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.ParameterNamesModuleConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.module.paramnames.ParameterNamesModule' (OnClassCondition)
+
+   JacksonAutoConfiguration.ParameterNamesModuleConfiguration#parameterNamesModule matched:
+      - @ConditionalOnMissingBean (types: com.fasterxml.jackson.module.paramnames.ParameterNamesModule; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+      - @ConditionalOnProperty (spring.mvc.converters.preferred-json-mapper=jackson) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) found bean 'jacksonObjectMapper' (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration#mappingJackson2HttpMessageConverter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter ignored: org.springframework.hateoas.server.mvc.TypeConstrainedMappingJackson2HttpMessageConverter,org.springframework.data.rest.webmvc.alps.AlpsJsonHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   LifecycleAutoConfiguration#defaultLifecycleProcessor matched:
+      - @ConditionalOnMissingBean (names: lifecycleProcessor; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   MultipartAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'javax.servlet.MultipartConfigElement' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnProperty (spring.servlet.multipart.enabled) matched (OnPropertyCondition)
+
+   MultipartAutoConfiguration#multipartConfigElement matched:
+      - @ConditionalOnMissingBean (types: javax.servlet.MultipartConfigElement,org.springframework.web.multipart.commons.CommonsMultipartResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MultipartAutoConfiguration#multipartResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   NoOpCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.NoOpCacheConfiguration automatic cache type (CacheCondition)
+
+   PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   RestTemplateAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.client.RestTemplate' (OnClassCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on RestTemplateAutoConfiguration.NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes (RestTemplateAutoConfiguration.NotReactiveWebApplicationCondition)
+
+   RestTemplateAutoConfiguration#restTemplateBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.client.RestTemplateBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RestTemplateAutoConfiguration#restTemplateBuilderConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.client.RestTemplateBuilderConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ServletWebServerFactoryAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'javax.servlet.ServletRequest' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ServletWebServerFactoryAutoConfiguration#tomcatServletWebServerFactoryCustomizer matched:
+      - @ConditionalOnClass found required class 'org.apache.catalina.startup.Tomcat' (OnClassCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedTomcat matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.server.ServletWebServerFactory; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   SimpleCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration automatic cache type (CacheCondition)
+
+   SqlInitializationAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.sql.init.enabled) matched (OnPropertyCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on SqlInitializationAutoConfiguration.SqlInitializationModeCondition.ModeIsNever @ConditionalOnProperty (spring.sql.init.mode=never) did not find property 'mode' (SqlInitializationAutoConfiguration.SqlInitializationModeCondition)
+
+   TaskExecutionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor' (OnClassCondition)
+
+   TaskExecutionAutoConfiguration#applicationTaskExecutor matched:
+      - @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutionAutoConfiguration#taskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskSchedulingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler' (OnClassCondition)
+
+   TaskSchedulingAutoConfiguration#taskSchedulerBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#formContentFilter matched:
+      - @ConditionalOnProperty (spring.mvc.formcontent.filter.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#flashMapManager matched:
+      - @ConditionalOnMissingBean (names: flashMapManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#localeResolver matched:
+      - @ConditionalOnMissingBean (names: localeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#themeResolver matched:
+      - @ConditionalOnMissingBean (names: themeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebSocketServletAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'javax.websocket.server.ServerContainer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   WebSocketServletAutoConfiguration.TomcatWebSocketConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.tomcat.websocket.server.WsSci' (OnClassCondition)
+
+   WebSocketServletAutoConfiguration.TomcatWebSocketConfiguration#websocketServletWebServerCustomizer matched:
+      - @ConditionalOnMissingBean (names: websocketServletWebServerCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   ActiveMQAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.jms.ConnectionFactory' (OnClassCondition)
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.aspectj.weaver.Advice' (OnClassCondition)
+
+   ArtemisAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.jms.ConnectionFactory' (OnClassCondition)
+
+   BatchAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.batch.core.launch.JobLauncher' (OnClassCondition)
+
+   CacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.cache.interceptor.CacheAspectSupport; SearchStrategy: all) did not find any beans of type org.springframework.cache.interceptor.CacheAspectSupport (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.cache.CacheManager' (OnClassCondition)
+
+   CacheAutoConfiguration.CacheManagerEntityManagerFactoryDependsOnPostProcessor:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+         - Ancestor org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+
+   CaffeineCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.github.benmanes.caffeine.cache.Caffeine' (OnClassCondition)
+
+   CassandraAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   CassandraDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   CassandraReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   CassandraReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.cassandra.ReactiveSession' (OnClassCondition)
+
+   CassandraRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   ClientHttpConnectorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   CodecsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   CouchbaseAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Bucket' (OnClassCondition)
+
+   CouchbaseReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Bucket' (OnClassCondition)
+
+   DataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   DataSourceInitializationConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.datasource.init.DatabasePopulator' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration#multipartResolver:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans of type org.springframework.web.multipart.MultipartResolver (OnBeanCondition)
+
+   EhCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'net.sf.ehcache.Cache' (OnClassCondition)
+
+   ElasticsearchDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate' (OnClassCondition)
+
+   ElasticsearchRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.elasticsearch.client.Client' (OnClassCondition)
+
+   ElasticsearchRestClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.elasticsearch.client.RestClientBuilder' (OnClassCondition)
+
+   EmbeddedLdapAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.unboundid.ldap.listener.InMemoryDirectoryServer' (OnClassCondition)
+
+   EmbeddedMongoAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.MongoClientSettings' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.JettyWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.util.Loader', 'org.eclipse.jetty.webapp.WebAppContext' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.NettyWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.netty.http.server.HttpServer' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.UndertowWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode' (OnClassCondition)
+
+   ErrorWebFluxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
+
+   FlywayAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.flywaydb.core.Flyway' (OnClassCondition)
+
+   FreeMarkerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'freemarker.template.Configuration' (OnClassCondition)
+
+   GroovyTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'groovy.text.markup.MarkupTemplateEngine' (OnClassCondition)
+
+   GsonAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   GsonHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   H2ConsoleAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.h2.server.web.WebServlet' (OnClassCondition)
+
+   HazelcastAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HazelcastCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HazelcastJpaDependencyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HibernateJpaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.persistence.EntityManager' (OnClassCondition)
+
+   HttpHandlerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.DispatcherHandler' (OnClassCondition)
+
+   HypermediaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.hateoas.EntityModel' (OnClassCondition)
+
+   InfinispanCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.infinispan.spring.embedded.provider.SpringEmbeddedCacheManager' (OnClassCondition)
+
+   InfluxDbAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.influxdb.InfluxDB' (OnClassCondition)
+
+   IntegrationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.integration.config.EnableIntegration' (OnClassCondition)
+
+   JCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.cache.Caching' (OnClassCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2XmlHttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JdbcRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.jdbc.repository.config.AbstractJdbcConfiguration' (OnClassCondition)
+
+   JdbcTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+
+   JerseyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.glassfish.jersey.server.spring.SpringComponentProvider' (OnClassCondition)
+
+   JmsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.jms.Message' (OnClassCondition)
+
+   JmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.jmx.enabled=true) did not find property 'enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
+
+   JndiConnectionFactoryAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jms.core.JmsTemplate' (OnClassCondition)
+
+   JndiDataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   JooqAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.jooq.DSLContext' (OnClassCondition)
+
+   JpaRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
+
+   JsonbAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.json.bind.Jsonb' (OnClassCondition)
+
+   JsonbHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.json.bind.Jsonb' (OnClassCondition)
+
+   JtaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.transaction.Transaction' (OnClassCondition)
+
+   KafkaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.kafka.core.KafkaTemplate' (OnClassCondition)
+
+   LdapAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.ldap.core.ContextSource' (OnClassCondition)
+
+   LdapRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.ldap.repository.LdapRepository' (OnClassCondition)
+
+   LiquibaseAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'liquibase.change.DatabaseChange' (OnClassCondition)
+
+   MailSenderAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.activation.MimeType' (OnClassCondition)
+
+   MailSenderValidatorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnSingleCandidate did not find required type 'org.springframework.mail.javamail.JavaMailSenderImpl' (OnBeanCondition)
+
+   MessageSourceAutoConfiguration:
+      Did not match:
+         - ResourceBundle did not find bundle with basename messages (MessageSourceAutoConfiguration.ResourceBundleCondition)
+
+   MongoAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MongoDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MustacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.samskivert.mustache.Mustache' (OnClassCondition)
+
+   Neo4jAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   NettyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.netty.util.NettyRuntime' (OnClassCondition)
+
+   OAuth2ClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   OAuth2ResourceServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.oauth2.server.resource.BearerTokenAuthenticationToken' (OnClassCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor' (OnClassCondition)
+
+   ProjectInfoAutoConfiguration#buildProperties:
+      Did not match:
+         - @ConditionalOnResource did not find resource '${spring.info.build.location:classpath:META-INF/build-info.properties}' (OnResourceCondition)
+
+   ProjectInfoAutoConfiguration#gitProperties:
+      Did not match:
+         - GitResource did not find git info at classpath:git.properties (ProjectInfoAutoConfiguration.GitResourceAvailableCondition)
+
+   QuartzAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.quartz.Scheduler' (OnClassCondition)
+
+   R2dbcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.r2dbc.spi.ConnectionFactory' (OnClassCondition)
+
+   R2dbcDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.r2dbc.core.R2dbcEntityTemplate' (OnClassCondition)
+
+   R2dbcInitializationConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.r2dbc.spi.ConnectionFactory', 'org.springframework.r2dbc.connection.init.DatabasePopulator' (OnClassCondition)
+
+   R2dbcRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.r2dbc.spi.ConnectionFactory' (OnClassCondition)
+
+   R2dbcTransactionManagerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.r2dbc.connection.R2dbcTransactionManager' (OnClassCondition)
+
+   RSocketMessagingAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.RSocket' (OnClassCondition)
+
+   RSocketRequesterAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.RSocket' (OnClassCondition)
+
+   RSocketSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.rsocket.core.SecuritySocketAcceptorInterceptor' (OnClassCondition)
+
+   RSocketServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.core.RSocketServer' (OnClassCondition)
+
+   RSocketStrategiesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.netty.buffer.PooledByteBufAllocator' (OnClassCondition)
+
+   RabbitAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.rabbitmq.client.Channel' (OnClassCondition)
+
+   ReactiveElasticsearchRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.client.reactive.ReactiveElasticsearchClient' (OnClassCondition)
+
+   ReactiveElasticsearchRestClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.netty.http.client.HttpClient' (OnClassCondition)
+
+   ReactiveMultipartAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
+
+   ReactiveOAuth2ClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Flux' (OnClassCondition)
+
+   ReactiveOAuth2ResourceServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity' (OnClassCondition)
+
+   ReactiveSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Flux' (OnClassCondition)
+
+   ReactiveUserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.ReactiveAuthenticationManager' (OnClassCondition)
+
+   ReactiveWebServerFactoryAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
+
+   RedisAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.core.RedisOperations' (OnClassCondition)
+
+   RedisCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.connection.RedisConnectionFactory' (OnClassCondition)
+
+   RedisReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Flux' (OnClassCondition)
+
+   RedisRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.repository.configuration.EnableRedisRepositories' (OnClassCondition)
+
+   RepositoryRestMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration' (OnClassCondition)
+
+   Saml2RelyingPartyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (OnClassCondition)
+
+   SecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher' (OnClassCondition)
+
+   SecurityFilterAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.http.SessionCreationPolicy' (OnClassCondition)
+
+   SendGridAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.sendgrid.SendGrid' (OnClassCondition)
+
+   ServletWebServerFactoryAutoConfiguration#forwardedHeaderFilter:
+      Did not match:
+         - @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy' (OnPropertyCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedJetty:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.util.Loader', 'org.eclipse.jetty.webapp.WebAppContext' (OnClassCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedUndertow:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode' (OnClassCondition)
+
+   SessionAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.session.Session' (OnClassCondition)
+
+   SolrAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.solr.client.solrj.impl.CloudSolrClient' (OnClassCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.application.admin.enabled=true) did not find property 'enabled' (OnPropertyCondition)
+
+   SpringDataWebAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.web.PageableHandlerMethodArgumentResolver' (OnClassCondition)
+
+   TaskSchedulingAutoConfiguration#taskScheduler:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.context.annotation.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   ThymeleafAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.thymeleaf.spring5.SpringTemplateEngine' (OnClassCondition)
+
+   TransactionAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+   ValidationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.validation.executable.ExecutableValidator' (OnClassCondition)
+
+   WebClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   WebFluxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter:
+      Did not match:
+         - @ConditionalOnProperty (spring.mvc.hiddenmethod.filter.enabled) did not find property 'enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnEnabledResourceChain did not find class org.webjars.WebJarAssetLocator (OnEnabledResourceChainCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
+
+   WebServiceTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.oxm.Marshaller' (OnClassCondition)
+
+   WebServicesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.ws.transport.http.MessageDispatcherServlet' (OnClassCondition)
+
+   WebSessionIdResolverAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Mono' (OnClassCondition)
+
+   WebSocketMessagingAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer' (OnClassCondition)
+
+   WebSocketReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
+
+   WebSocketServletAutoConfiguration.Jetty10WebSocketConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.websocket.javax.server.internal.JavaxWebSocketServerContainer', 'org.eclipse.jetty.websocket.server.JettyWebSocketServerContainer' (OnClassCondition)
+
+   WebSocketServletAutoConfiguration.JettyWebSocketConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainerInitializer' (OnClassCondition)
+
+   WebSocketServletAutoConfiguration.UndertowWebSocketConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.undertow.websockets.jsr.Bootstrap' (OnClassCondition)
+
+   XADataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.transaction.TransactionManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+
+    org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+
+    org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+
+
+
+2021-11-24 14:03:28,690 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.781 seconds (JVM running for 3.303)
+2021-11-24 14:03:28,691 DEBUG org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2021-11-24 14:03:28,693 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-24 14:03:28,693 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-24 14:03:28,693 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-24 14:03:28,694 DEBUG org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-11-24 14:04:28,265 DEBUG org.apache.juli.logging.DirectJDKLog [Catalina-utility-2] Start expire sessions StandardManager at 1637759068265 sessioncount 0
+2021-11-24 14:04:28,265 DEBUG org.apache.juli.logging.DirectJDKLog [Catalina-utility-2] End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-11-24 14:05:28,314 DEBUG org.apache.juli.logging.DirectJDKLog [Catalina-utility-1] Start expire sessions StandardManager at 1637759128314 sessioncount 0
+2021-11-24 14:05:28,314 DEBUG org.apache.juli.logging.DirectJDKLog [Catalina-utility-1] End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-11-24 14:06:28,354 DEBUG org.apache.juli.logging.DirectJDKLog [Catalina-utility-2] Start expire sessions StandardManager at 1637759188354 sessioncount 0
+2021-11-24 14:06:28,355 DEBUG org.apache.juli.logging.DirectJDKLog [Catalina-utility-2] End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-11-24 14:06:46,357 DEBUG org.springframework.boot.availability.ApplicationAvailabilityBean [SpringApplicationShutdownHook] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-11-24 14:06:46,358 DEBUG org.springframework.context.support.AbstractApplicationContext [SpringApplicationShutdownHook] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ae8bcbc, started on Wed Nov 24 14:03:26 CET 2021
+2021-11-24 14:06:46,361 DEBUG org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup [SpringApplicationShutdownHook] Stopping beans in phase 2147483647
+2021-11-24 14:06:46,363 DEBUG org.springframework.context.support.DefaultLifecycleProcessor [SpringApplicationShutdownHook] Bean 'webServerGracefulShutdown' completed its stop procedure
+2021-11-24 14:06:46,364 DEBUG org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup [SpringApplicationShutdownHook] Stopping beans in phase 2147483646
+2021-11-24 14:06:46,393 DEBUG org.springframework.context.support.DefaultLifecycleProcessor [SpringApplicationShutdownHook] Bean 'webServerStartStop' completed its stop procedure
+2021-11-24 14:06:46,395 DEBUG org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringApplicationShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
