@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller1 {
 
 
-
     @GetMapping("/parametros/")
     public String recogerValoresProperties() {
 

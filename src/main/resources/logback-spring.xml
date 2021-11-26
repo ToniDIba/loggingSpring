@@ -4,7 +4,6 @@
     <!--Donde me dejará los archivos -->
     <property name="LOGS" value="./logs" />
 
-
     <!--Donde me dejará los mensajes de consola -->
     <appender name="Console"
               class="ch.qos.logback.core.ConsoleAppender">
@@ -22,9 +21,7 @@
         </filter>
 
 
-
     </appender>
-
 
     <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>A R C H I V O  1  D E  E R R O R E S  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 

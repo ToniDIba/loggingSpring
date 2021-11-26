@@ -13,7 +13,6 @@ import static org.apache.logging.log4j.LogManager.getLogger;
 @SpringBootApplication
 public class LoggingSpringApplication implements CommandLineRunner {
 
-
 	static Logger log = getLogger(LoggingSpringApplication.class.getName());
 
 	public static void main(String[] args) {
