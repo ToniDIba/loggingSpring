@@ -1,17 +1,20 @@
 package com.example.loggingSpring;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
+
+import org.apache.logging.log4j.Logger;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import static org.apache.logging.log4j.LogManager.getLogger;
 
 
 @SpringBootApplication
 public class LoggingSpringApplication implements CommandLineRunner {
 
-	Logger log = LoggerFactory.getLogger(LoggingSpringApplication.class);
+
+	static Logger log = getLogger(LoggingSpringApplication.class.getName());
 
 	public static void main(String[] args) {
 		SpringApplication.run(LoggingSpringApplication.class, args);
