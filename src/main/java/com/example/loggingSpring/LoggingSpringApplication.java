@@ -28,6 +28,7 @@ public class LoggingSpringApplication implements CommandLineRunner {
 			log.error("Salida ERROR desde la clase EjemploLog");
 			log.trace("Esto es una traza");
 
+
 		}
 
 }

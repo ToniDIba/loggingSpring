@@ -1,0 +1,8 @@
+2021-11-24 18:47:44,174 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on EM2021002988 with PID 12380 (C:\Users\antonio.dols\IdeaProjects\loggingSpring\target\classes started by antonio.dols in C:\Users\antonio.dols\IdeaProjects\loggingSpring)
+2021-11-24 18:47:44,190 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-24 18:47:44,190 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: perfil1
+2021-11-24 18:47:46,022 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.494 seconds (JVM running for 3.088)
+2021-11-24 18:47:46,022 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-24 18:47:46,022 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-24 18:47:46,022 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-24 18:47:46,022 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
