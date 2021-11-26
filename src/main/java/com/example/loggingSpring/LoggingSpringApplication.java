@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import static org.apache.logging.log4j.LogManager.getLogger;
 
 
+
 @SpringBootApplication
 public class LoggingSpringApplication implements CommandLineRunner {
 

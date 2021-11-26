@@ -61,6 +61,7 @@
 
     <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>A R C H I V O  2  D E  E R R O R E S  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
+
     <appender name="RollingFile2"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOGS}/otrosAvisos.log</file>
@@ -75,9 +76,6 @@
             <onMatch>ACCEPT</onMatch>
             <onMismatch>DENY</onMismatch>
         </filter>
-
-
-
 
 
         <rollingPolicy

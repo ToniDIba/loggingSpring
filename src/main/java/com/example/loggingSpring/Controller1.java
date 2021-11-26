@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
+
 @RestController
 public class Controller1 {
 
@@ -17,6 +18,7 @@ public class Controller1 {
         log.info("Informacionm");
         System.out.println("Escribo log");
         return "hola";
+
 
     }
 
