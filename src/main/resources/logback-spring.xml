@@ -1,35 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-    <!--Donde me dejará los archivos -->
+
+    <timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss"/>
+
+    <!--Path en dónde me dejará los archivos -->
     <property name="LOGS" value="./logs" />
 
+
     <!--Donde me dejará los mensajes de consola -->
-    <appender name="Console"
-              class="ch.qos.logback.core.ConsoleAppender">
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">
             <Pattern>
                 %black(%d{ISO8601}) %highlight(%-5level) [%blue(%t)] %yellow(%C{1.}): %msg%n%throwable
             </Pattern>
         </layout>
 
-
+        <!-- En "consola", para los "ERROR", les hace "DENY" (no permite que se escriban en consola. Los "ERROR" los
+             envío a un archivo. Ver más adelante) -->
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>ERROR</level>
             <onMatch>DENY</onMatch>
             <onMismatch>ACCEPT</onMismatch>
         </filter>
 
-
     </appender>
 
-    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>A R C H I V O  1  D E  E R R O R E S  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-    <appender name="RollingFile"
+
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>A R C H I V O  D E  E R R O R E S  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+    <appender name="LogsError"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOGS}/misError.log</file>
 
-
+        <!-- Acepta unicamente los errores de tipo "ERROR" y que serán escritos en un archivo. El resto de errores tipo
+             "DEBUG", "INFO"... no permite que se escriban ("DENY") -->
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>ERROR</level>
             <onMatch>ACCEPT</onMatch>
@@ -37,102 +44,88 @@
         </filter>
 
 
-
-
-        <encoder
-                class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
         </encoder>
 
 
-        <rollingPolicy
-                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <!-- rollover daily and when the file reaches 1 MegaBytes -->
-            <fileNamePattern>${LOGS}/archived/misError-%d{yyyy-MM-dd}.%i.log
-            </fileNamePattern>
-            <timeBasedFileNamingAndTriggeringPolicy
-                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOGS}/archived/misError-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>1MB</maxFileSize>
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
+
     </appender>
 
 
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>A R C H I V O   D E  T R A C E S  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>A R C H I V O  2  D E  E R R O R E S  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <appender name="LogsTraces" class="ch.qos.logback.core.rolling.RollingFileAppender">
 
+        <file>${LOGS}/avisosTraces.log</file>
 
-    <appender name="RollingFile2"
-              class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${LOGS}/otrosAvisos.log</file>
-        <encoder
-                class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
         </encoder>
 
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOGS}/archived/avisosTraces-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
 
-        <filter class="ch.qos.logback.classic.filter.LevelFilter">
-            <level>DEBUG</level>
-            <onMatch>ACCEPT</onMatch>
-            <onMismatch>DENY</onMismatch>
-        </filter>
-
-
-        <rollingPolicy
-                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <!-- rollover daily and when the file reaches 1 MegaBytes -->
-            <fileNamePattern>${LOGS}/archived/otrosAvisos-%d{yyyy-MM-dd}.%i.log
-            </fileNamePattern>
-            <timeBasedFileNamingAndTriggeringPolicy
-                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>1MB</maxFileSize>
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
+
     </appender>
 
 
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>A R C H I V O  D E  D E B U G  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>A R C H I V O  3  D E  E R R O R E S  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <!-- Máximo cinco archivos que se van renombrando a medida que se genera uno nuevo. 'spring-logging.02.log' -->
+    <!-- contendrá lo que tenía spring-logging.01.log al generarse un nuevo 'spring-logging.log' -->
+    <appender name="LogsDebug" class="ch.qos.logback.core.rolling.RollingFileAppender">
 
-    <appender name="RollingFile3"
-              class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${LOGS}/avisosEspeciales.log</file>
-        <encoder
-                class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-            <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
+        <file>spring-logging.log</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>spring-logging.0%i.log</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>4</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>100KB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%msg%n</pattern>
         </encoder>
 
-
-        <rollingPolicy
-                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <!-- rollover daily and when the file reaches 1 MegaBytes -->
-            <fileNamePattern>${LOGS}/archived/avisosEspeciales-%d{yyyy-MM-dd}.%i.log
-            </fileNamePattern>
-            <timeBasedFileNamingAndTriggeringPolicy
-                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
-                <maxFileSize>1MB</maxFileSize>
-            </timeBasedFileNamingAndTriggeringPolicy>
-        </rollingPolicy>
     </appender>
 
 
 
 
-    <!-- LOG everything at ERROR level en mi archivo de errores -->
+<!--  *************************** Dependiendo del "level", escribe en uno u otro archivo **************************** -->
+
+
+    <!-- Hace un LOG solamente de los "ERROR level" en mi archivo de errores -->
     <root level="error">
-        <appender-ref ref="RollingFile" />h>
+        <appender-ref ref="LogsError" />h>
     </root>
 
 
-    <!-- LOG de otros avisos  -->
+    <!-- LOG de otros avisos con renombrado de archivo -->
     <root level="debug">
-        <appender-ref ref="RollingFile2" />
+        <appender-ref ref="MiArchivoLogging" />
     </root>
 
 
     <!-- LOG "com.example.loggingSpring" at TRACE level -->
     <logger name="com.example.loggingSpring" level="trace" additivity="true">
-        <appender-ref ref="RollingFile3" />
+        <appender-ref ref="LogsTraces" />
         <appender-ref ref="Console" />
     </logger>
 

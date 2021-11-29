@@ -1,7 +1,6 @@
 package com.example.loggingSpring;
 
 
-
 import org.apache.logging.log4j.Logger;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -28,7 +27,7 @@ public class LoggingSpringApplication implements CommandLineRunner {
 			log.error("Salida ERROR desde la clase EjemploLog");
 			log.trace("Esto es una traza");
 
-
+			System.exit(0);
 		}
 
 }

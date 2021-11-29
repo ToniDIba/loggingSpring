@@ -1,0 +1,712 @@
+2021-11-27 08:09:08,914 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 9516 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:09:08,920 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:09:08,926 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:09:10,897 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.645 seconds (JVM running for 3.43)
+2021-11-27 08:09:10,906 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:09:10,907 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:09:10,907 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:09:10,908 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:09:20,683 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 11152 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:09:20,687 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:09:20,688 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:09:22,670 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.659 seconds (JVM running for 3.381)
+2021-11-27 08:09:22,674 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:09:22,675 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:09:22,675 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:09:22,676 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:09:28,075 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 3020 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:09:28,078 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:09:28,079 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:09:30,063 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.671 seconds (JVM running for 3.328)
+2021-11-27 08:09:30,068 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:09:30,069 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:09:30,069 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:09:30,070 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:09:36,541 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 11196 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:09:36,544 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:09:36,545 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:09:38,416 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.548 seconds (JVM running for 3.137)
+2021-11-27 08:09:38,423 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:09:38,423 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:09:38,423 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:09:38,424 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:09:46,994 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 14348 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:09:46,998 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:09:46,999 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:09:48,959 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.629 seconds (JVM running for 3.292)
+2021-11-27 08:09:48,963 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:09:48,964 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:09:48,964 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:09:48,965 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:10:05,879 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 14696 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:10:05,891 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:10:05,905 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:10:07,980 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.832 seconds (JVM running for 3.42)
+2021-11-27 08:10:07,985 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:10:07,986 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:10:07,986 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:10:07,986 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:10:15,519 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 1876 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:10:15,523 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:10:15,523 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:10:17,407 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.565 seconds (JVM running for 3.175)
+2021-11-27 08:10:17,411 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:10:17,412 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:10:17,412 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:10:17,412 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:10:24,130 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 13956 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:10:24,136 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:10:24,137 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:10:26,093 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.652 seconds (JVM running for 3.328)
+2021-11-27 08:10:26,098 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:10:26,098 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:10:26,098 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:10:26,099 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:11:10,560 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 4196 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:11:10,564 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:11:10,566 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:11:12,574 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.701 seconds (JVM running for 3.336)
+2021-11-27 08:11:12,578 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:11:12,578 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:11:12,578 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:11:12,579 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:11:18,880 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 4560 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:11:18,888 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:11:18,888 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:11:20,840 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.644 seconds (JVM running for 3.209)
+2021-11-27 08:11:20,843 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:11:20,844 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:11:20,844 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:11:20,844 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:11:26,292 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 11188 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:11:26,296 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:11:26,297 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:11:28,256 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.647 seconds (JVM running for 3.367)
+2021-11-27 08:11:28,260 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:11:28,261 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:11:28,261 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:11:28,262 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:11:32,976 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 15612 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:11:32,983 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:11:32,983 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:11:34,923 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.653 seconds (JVM running for 3.288)
+2021-11-27 08:11:34,927 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:11:34,927 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:11:34,927 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:11:34,928 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:11:43,045 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 17336 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:11:43,049 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:11:43,049 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:11:45,119 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.726 seconds (JVM running for 3.478)
+2021-11-27 08:11:45,124 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:11:45,125 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:11:45,125 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:11:45,125 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:11:49,848 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 17384 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:11:49,855 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:11:49,856 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:11:51,835 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.675 seconds (JVM running for 3.278)
+2021-11-27 08:11:51,838 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:11:51,839 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:11:51,839 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:11:51,839 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:11:57,759 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 13024 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:11:57,766 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:11:57,767 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:11:59,889 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.812 seconds (JVM running for 3.421)
+2021-11-27 08:11:59,893 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:11:59,894 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:11:59,894 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:11:59,895 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:12:12,081 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 2976 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:12:12,092 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:12:12,095 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:12:14,107 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.849 seconds (JVM running for 3.463)
+2021-11-27 08:12:14,110 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:12:14,110 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:12:14,111 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:12:14,111 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:19:01,601 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 16648 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:19:01,605 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:19:01,606 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:19:03,588 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.698 seconds (JVM running for 3.333)
+2021-11-27 08:19:03,592 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:19:03,593 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:19:03,593 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:19:03,593 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:19:14,594 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 17152 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:19:14,598 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:19:14,599 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:19:16,618 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.74 seconds (JVM running for 3.301)
+2021-11-27 08:19:16,621 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:19:16,622 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:19:16,622 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:19:16,623 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:19:23,549 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 3180 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:19:23,553 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:19:23,553 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:19:25,532 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.686 seconds (JVM running for 3.282)
+2021-11-27 08:19:25,536 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:19:25,537 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:19:25,537 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:19:25,537 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:19:35,578 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 9572 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:19:35,582 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:19:35,583 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:19:37,577 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.686 seconds (JVM running for 3.32)
+2021-11-27 08:19:37,580 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:19:37,581 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:19:37,581 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:19:37,581 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:19:53,979 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 5924 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:19:53,983 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:19:53,984 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:19:55,988 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.688 seconds (JVM running for 3.347)
+2021-11-27 08:19:55,991 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:19:55,992 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:19:55,992 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:19:55,992 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:20:10,440 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 2180 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:20:10,449 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:20:10,449 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:20:12,467 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.695 seconds (JVM running for 3.411)
+2021-11-27 08:20:12,470 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:20:12,471 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:20:12,471 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:20:12,471 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:20:45,318 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 10920 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:20:45,322 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:20:45,323 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:20:47,268 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.608 seconds (JVM running for 3.229)
+2021-11-27 08:20:47,271 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:20:47,272 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:20:47,272 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:20:47,272 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:20:58,379 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 13352 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:20:58,383 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:20:58,383 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:21:00,392 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.746 seconds (JVM running for 3.346)
+2021-11-27 08:21:00,395 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:21:00,396 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:21:00,396 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:21:00,397 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:21:07,125 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 9612 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:21:07,145 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:21:07,145 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:21:09,169 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.799 seconds (JVM running for 3.461)
+2021-11-27 08:21:09,172 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:21:09,172 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:21:09,172 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:21:09,173 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:21:59,675 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 10860 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:21:59,680 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:21:59,681 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:22:01,724 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.686 seconds (JVM running for 3.301)
+2021-11-27 08:22:01,727 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:22:01,727 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:22:01,727 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:22:01,728 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:22:54,108 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 6172 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:22:54,117 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:22:54,118 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:22:56,134 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.741 seconds (JVM running for 3.327)
+2021-11-27 08:22:56,138 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:22:56,139 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:22:56,139 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:22:56,139 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:23:14,947 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 13184 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:23:14,964 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:23:14,964 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:23:17,103 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.853 seconds (JVM running for 3.473)
+2021-11-27 08:23:17,107 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:23:17,108 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:23:17,108 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:23:17,108 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:23:36,868 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 8884 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:23:36,872 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:23:36,873 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:23:39,044 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.908 seconds (JVM running for 3.6)
+2021-11-27 08:23:39,049 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:23:39,049 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:23:39,050 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:23:39,050 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:23:50,410 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 9292 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:23:50,413 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:23:50,414 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:23:52,516 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.833 seconds (JVM running for 3.449)
+2021-11-27 08:23:52,519 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:23:52,520 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:23:52,520 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:23:52,520 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:24:12,859 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 2488 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:24:12,870 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:24:12,870 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:24:15,017 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.863 seconds (JVM running for 3.54)
+2021-11-27 08:24:15,020 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:24:15,020 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:24:15,021 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:24:15,021 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:26:45,078 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 2660 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:26:45,087 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:26:45,089 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:26:47,228 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.823 seconds (JVM running for 3.482)
+2021-11-27 08:26:47,231 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:26:47,231 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:26:47,231 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:26:47,231 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:27:24,059 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 9204 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:27:24,066 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:27:24,066 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:27:25,983 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.64 seconds (JVM running for 3.249)
+2021-11-27 08:27:25,986 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:27:25,986 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:27:25,987 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:27:25,987 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:27:55,817 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 4568 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:27:55,821 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:27:55,821 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:27:58,070 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.961 seconds (JVM running for 3.578)
+2021-11-27 08:27:58,076 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:27:58,077 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:27:58,077 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:27:58,078 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:28:35,841 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 1368 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:28:35,849 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:28:35,850 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:28:37,865 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.663 seconds (JVM running for 3.265)
+2021-11-27 08:28:37,872 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:28:37,872 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:28:37,872 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:28:37,873 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:29:03,446 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 13372 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:29:03,450 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:29:03,451 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:29:05,583 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.832 seconds (JVM running for 3.625)
+2021-11-27 08:29:05,587 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:29:05,587 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:29:05,588 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:29:05,588 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:29:27,727 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 15908 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:29:27,731 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:29:27,732 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:29:29,963 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.941 seconds (JVM running for 3.586)
+2021-11-27 08:29:29,967 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:29:29,968 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:29:29,968 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:29:29,969 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:29:41,235 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 13712 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:29:41,239 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:29:41,239 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:29:43,376 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.848 seconds (JVM running for 3.501)
+2021-11-27 08:29:43,380 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:29:43,380 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:29:43,381 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:29:43,381 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:33:06,699 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 11420 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:33:06,713 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:33:06,715 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:33:09,064 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 3.026 seconds (JVM running for 3.671)
+2021-11-27 08:33:09,068 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:33:09,068 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:33:09,069 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:33:09,069 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:34:03,260 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 7452 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:34:03,274 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:34:03,275 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:34:05,569 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 3.014 seconds (JVM running for 4.021)
+2021-11-27 08:34:05,574 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:34:05,574 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:34:05,575 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:34:05,575 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:34:15,759 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 1440 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:34:15,763 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:34:15,764 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:34:17,959 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.879 seconds (JVM running for 3.489)
+2021-11-27 08:34:17,964 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:34:17,964 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:34:17,965 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:34:17,965 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:34:33,052 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 16508 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:34:33,056 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:34:33,056 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:34:35,285 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.985 seconds (JVM running for 3.677)
+2021-11-27 08:34:35,290 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:34:35,291 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:34:35,291 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:34:35,291 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:34:43,772 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 12352 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:34:43,777 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:34:43,777 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:34:45,872 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.816 seconds (JVM running for 3.412)
+2021-11-27 08:34:45,879 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:34:45,880 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:34:45,880 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:34:45,883 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:34:53,300 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 13372 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:34:53,306 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:34:53,306 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:34:55,570 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 3.126 seconds (JVM running for 3.813)
+2021-11-27 08:34:55,574 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:34:55,575 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:34:55,575 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:34:55,575 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:36:19,844 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 9252 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:36:19,865 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:36:19,865 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:36:22,084 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 3.008 seconds (JVM running for 3.65)
+2021-11-27 08:36:22,088 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:36:22,088 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:36:22,088 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:36:22,089 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:36:40,218 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 8664 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:36:40,223 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:36:40,224 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:36:42,289 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.77 seconds (JVM running for 3.347)
+2021-11-27 08:36:42,295 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:36:42,297 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:36:42,298 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:36:42,298 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:36:52,038 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 5696 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:36:52,042 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:36:52,043 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:36:54,177 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.908 seconds (JVM running for 3.503)
+2021-11-27 08:36:54,181 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:36:54,182 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:36:54,182 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:36:54,183 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:37:02,643 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 12844 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:37:02,662 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:37:02,662 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:37:04,908 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.945 seconds (JVM running for 3.539)
+2021-11-27 08:37:04,912 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:37:04,912 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:37:04,912 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:37:04,913 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:37:19,496 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 8932 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:37:19,500 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:37:19,500 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:37:21,648 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.887 seconds (JVM running for 3.6)
+2021-11-27 08:37:21,653 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:37:21,653 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:37:21,654 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:37:21,654 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:38:22,333 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 15796 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:38:22,337 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:38:22,337 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:38:24,874 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 3.248 seconds (JVM running for 3.865)
+2021-11-27 08:38:24,877 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:38:24,878 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:38:24,878 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:38:24,878 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:38:38,458 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 10784 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:38:38,462 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:38:38,463 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:38:40,646 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.877 seconds (JVM running for 3.46)
+2021-11-27 08:38:40,650 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:38:40,651 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:38:40,651 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:38:40,651 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:38:51,954 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 7272 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:38:51,958 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:38:51,959 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:38:54,030 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.835 seconds (JVM running for 3.434)
+2021-11-27 08:38:54,035 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:38:54,036 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:38:54,036 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:38:54,037 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:39:01,524 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 17172 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:39:01,532 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:39:01,533 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:39:03,848 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 3.05 seconds (JVM running for 3.712)
+2021-11-27 08:39:03,851 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:39:03,851 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:39:03,852 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:39:03,852 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:43:35,677 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 15140 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:43:35,682 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:43:35,682 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:43:37,660 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.684 seconds (JVM running for 3.364)
+2021-11-27 08:43:37,663 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:43:37,664 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:43:37,665 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:43:37,665 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:43:47,017 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 12784 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:43:47,020 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:43:47,021 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:43:48,995 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.661 seconds (JVM running for 3.287)
+2021-11-27 08:43:48,999 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:43:49,000 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:43:49,001 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:43:49,001 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:43:56,298 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 17376 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:43:56,303 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:43:56,304 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:43:58,255 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.721 seconds (JVM running for 3.317)
+2021-11-27 08:43:58,259 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:43:58,259 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:43:58,259 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:43:58,260 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:44:05,400 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 1876 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:44:05,421 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:44:05,421 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:44:07,608 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.915 seconds (JVM running for 3.512)
+2021-11-27 08:44:07,611 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:44:07,612 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:44:07,612 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:44:07,612 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:44:20,542 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 14812 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:44:20,546 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:44:20,546 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:44:22,465 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.599 seconds (JVM running for 3.198)
+2021-11-27 08:44:22,469 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:44:22,469 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:44:22,469 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:44:22,470 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:44:43,581 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 5908 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:44:43,589 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:44:43,589 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:44:45,800 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.914 seconds (JVM running for 3.718)
+2021-11-27 08:44:45,804 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:44:45,805 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:44:45,805 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:44:45,806 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:44:52,531 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 15784 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:44:52,535 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:44:52,536 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:44:54,849 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 3.079 seconds (JVM running for 3.709)
+2021-11-27 08:44:54,855 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:44:54,856 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:44:54,856 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:44:54,857 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:45:03,787 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 10576 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:45:03,796 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:45:03,796 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:45:06,169 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 3.067 seconds (JVM running for 3.74)
+2021-11-27 08:45:06,171 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:45:06,172 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:45:06,172 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:45:06,173 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:49:54,430 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 5396 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:49:54,434 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:49:54,434 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:49:56,368 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.653 seconds (JVM running for 3.347)
+2021-11-27 08:49:56,372 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:49:56,372 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:49:56,372 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:49:56,373 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:50:22,104 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 6648 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:50:22,108 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:50:22,108 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:50:23,947 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.501 seconds (JVM running for 3.095)
+2021-11-27 08:50:23,950 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:50:23,950 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:50:23,950 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:50:23,951 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:52:35,107 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 17148 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:52:35,113 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:52:35,114 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:52:37,203 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.84 seconds (JVM running for 3.463)
+2021-11-27 08:52:37,206 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:52:37,207 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:52:37,207 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:52:37,207 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:55:07,882 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 7744 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:55:07,888 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:55:07,889 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:55:09,868 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.736 seconds (JVM running for 3.35)
+2021-11-27 08:55:09,872 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:55:09,873 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:55:09,873 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:55:09,873 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:55:31,657 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 14348 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:55:31,662 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:55:31,662 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:55:33,680 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.732 seconds (JVM running for 3.329)
+2021-11-27 08:55:33,683 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:55:33,684 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:55:33,684 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:55:33,685 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:55:44,893 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 7724 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:55:44,898 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:55:44,898 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:55:46,820 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.632 seconds (JVM running for 3.232)
+2021-11-27 08:55:46,825 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:55:46,826 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:55:46,826 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:55:46,826 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:56:31,365 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 1632 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:56:31,371 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:56:31,372 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:56:33,343 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.737 seconds (JVM running for 3.362)
+2021-11-27 08:56:33,347 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:56:33,348 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:56:33,348 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:56:33,349 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:56:46,204 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 15364 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:56:46,215 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:56:46,217 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:56:48,154 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.663 seconds (JVM running for 3.352)
+2021-11-27 08:56:48,157 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:56:48,158 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:56:48,158 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:56:48,158 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:56:56,207 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 15168 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:56:56,210 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:56:56,211 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:56:58,224 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.75 seconds (JVM running for 3.452)
+2021-11-27 08:56:58,233 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:56:58,234 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:56:58,234 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:56:58,235 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:57:11,261 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 12396 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:57:11,266 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:57:11,266 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:57:13,522 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 3.016 seconds (JVM running for 3.753)
+2021-11-27 08:57:13,526 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:57:13,527 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:57:13,527 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:57:13,528 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 08:57:21,278 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 876 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 08:57:21,282 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 08:57:21,283 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 08:57:23,270 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.727 seconds (JVM running for 3.403)
+2021-11-27 08:57:23,274 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 08:57:23,274 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 08:57:23,275 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 08:57:23,275 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 16:36:02,037 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 10824 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 16:36:02,048 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 16:36:02,049 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 16:36:04,282 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 4.265 seconds (JVM running for 5.301)
+2021-11-27 16:36:04,285 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 16:36:04,286 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 16:36:04,286 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 16:36:04,287 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 16:38:08,036 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 14792 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 16:38:08,041 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 16:38:08,041 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 16:38:10,408 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 3.247 seconds (JVM running for 4.016)
+2021-11-27 16:38:10,412 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 16:38:10,413 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 16:38:10,414 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 16:38:10,414 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 16:39:12,421 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 11908 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 16:39:12,426 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 16:39:12,427 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 16:39:14,511 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.872 seconds (JVM running for 3.464)
+2021-11-27 16:39:14,515 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 16:39:14,516 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 16:39:14,516 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 16:39:14,517 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 16:43:53,036 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 6796 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 16:43:53,042 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 16:43:53,043 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 16:43:55,262 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.981 seconds (JVM running for 3.59)
+2021-11-27 16:43:55,266 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 16:43:55,267 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 16:43:55,267 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 16:43:55,267 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 16:47:51,387 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 2796 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 16:47:51,392 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 16:47:51,392 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 16:47:53,660 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 3.122 seconds (JVM running for 3.844)
+2021-11-27 16:47:53,666 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 16:47:53,667 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 16:47:53,668 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 16:47:53,668 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 16:49:32,961 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 12584 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 16:49:32,965 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 16:49:32,966 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 16:49:35,408 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 3.372 seconds (JVM running for 4.041)
+2021-11-27 16:49:35,411 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 16:49:35,412 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 16:49:35,412 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 16:49:35,413 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 16:50:07,668 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 15924 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 16:50:07,672 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 16:50:07,672 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 16:50:09,582 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.55 seconds (JVM running for 3.206)
+2021-11-27 16:50:09,585 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 16:50:09,586 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 16:50:09,586 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 16:50:09,586 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 16:51:13,972 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 4888 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 16:51:13,976 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 16:51:13,976 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 16:51:15,903 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.629 seconds (JVM running for 3.222)
+2021-11-27 16:51:15,908 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 16:51:15,909 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 16:51:15,910 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 16:51:15,910 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 16:51:51,823 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 11252 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 16:51:51,828 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 16:51:51,829 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 16:51:54,170 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 3.092 seconds (JVM running for 3.736)
+2021-11-27 16:51:54,174 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 16:51:54,175 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 16:51:54,175 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 16:51:54,175 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 16:53:40,696 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 5708 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 16:53:40,699 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 16:53:40,700 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 16:53:42,680 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.735 seconds (JVM running for 3.368)
+2021-11-27 16:53:42,683 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 16:53:42,684 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 16:53:42,684 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 16:53:42,684 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 16:53:52,882 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 13640 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 16:53:52,890 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 16:53:52,892 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 16:53:54,788 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.59 seconds (JVM running for 3.295)
+2021-11-27 16:53:54,792 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 16:53:54,792 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 16:53:54,793 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 16:53:54,793 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 17:09:10,854 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 8264 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 17:09:10,859 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 17:09:10,859 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 17:09:12,988 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.853 seconds (JVM running for 3.523)
+2021-11-27 17:09:12,992 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 17:09:12,993 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 17:09:12,993 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 17:09:12,994 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 17:10:39,442 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 7688 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 17:10:39,446 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 17:10:39,447 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 17:10:41,416 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.685 seconds (JVM running for 3.404)
+2021-11-27 17:10:41,420 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 17:10:41,421 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 17:10:41,422 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 17:10:41,422 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 17:10:52,501 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 5096 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 17:10:52,506 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 17:10:52,506 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 17:10:54,533 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.782 seconds (JVM running for 3.522)
+2021-11-27 17:10:54,539 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 17:10:54,539 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 17:10:54,540 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 17:10:54,540 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 17:12:45,781 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 1228 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 17:12:45,784 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 17:12:45,785 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 17:12:47,756 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.644 seconds (JVM running for 3.239)
+2021-11-27 17:12:47,760 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 17:12:47,761 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 17:12:47,761 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 17:12:47,762 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 17:15:00,914 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 14684 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 17:15:00,918 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 17:15:00,919 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 17:15:02,895 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.667 seconds (JVM running for 3.283)
+2021-11-27 17:15:02,898 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 17:15:02,899 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 17:15:02,899 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 17:15:02,899 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
+2021-11-27 17:16:42,955 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoggingSpringApplication using Java 17.0.1 on TorreComedor with PID 10484 (C:\Users\Toni\IdeaProjects\loggingSpring\target\classes started by Toni in C:\Users\Toni\IdeaProjects\loggingSpring)
+2021-11-27 17:16:42,959 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-11-27 17:16:42,959 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-27 17:16:44,851 INFO org.springframework.boot.StartupInfoLogger [main] Started LoggingSpringApplication in 2.574 seconds (JVM running for 3.232)
+2021-11-27 17:16:44,854 DEBUG com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de debug
+2021-11-27 17:16:44,855 INFO com.example.loggingSpring.LoggingSpringApplication [main] Esto es un mensaje de info
+2021-11-27 17:16:44,855 ERROR com.example.loggingSpring.LoggingSpringApplication [main] Salida ERROR desde la clase EjemploLog
+2021-11-27 17:16:44,856 TRACE com.example.loggingSpring.LoggingSpringApplication [main] Esto es una traza
